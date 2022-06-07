@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Search | BiCuDo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/search-styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar section -->
+  <section id="navbar">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">BiCuDo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sell</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+
+  <!-- Search Form Part in search.html -->
+  <section id="search-form-div">
+    <div class="container-md text-center">
+      <div class="book-search p-5">
+        <h1>Search for Books</h1>
+        <form action="search.html">
+
+
+          <div class="row search-index">
+            <div class="col-md-4 col-sm-6 index-search-form-field">
+              <label class="sr-only">Book Name</label>
+              <input type="text" name="book_name" class="form-control" placeholder="Book Name">
+            </div>
+            <div class="col-md-4 col-sm-6 index-search-form-field">
+              <label class="sr-only">Author</label>
+              <input type="text" name="author_name" class="form-control" placeholder="Author Name">
+            </div>
+            <div class="col-md-4 col-sm-6 index-search-form-field">
+              <label class="sr-only">ISBN</label>
+              <input type="text" name="isbn" class="form-control" placeholder="ISBN">
+            </div>
+            <div class="col-md-4 col-sm-6 index-search-form-field">
+              <label class="sr-only">City</label>
+              <input type="text" name="city" class="form-control" placeholder="City">
+            </div>
+            <div class="col-md-4 col-sm-6 index-search-form-field">
+              <label class="sr-only">State</label>
+              <select name="state" class="form-control">
+                <option selected="true" disabled="disabled">State (All)</option>
+                <option value="AN">Andaman and Nicobar Islands</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AR">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CH">Chandigarh</option>
+                <option value="CT">Chhattisgarh</option>
+                <option value="">Dadra and Nagar Haveli </option>
+                <option value="">Daman and Diu</option>
+                <option value="">Delhi</option>
+                <option value="">Goa</option>
+                <option value="">Gujarat</option>
+                <option value="">Haryana</option>
+                <option value="">Himachal Pradesh</option>
+                <option value="">Jammu and Kashmir</option>
+                <option value="">Jharkhand</option>
+                <option value="">Karnataka</option>
+                <option value="">Kerala</option>
+                <option value="">Lakshadweep</option>
+                <option value="">Madhya Pradesh</option>
+                <option value="">Maharashtra</option>
+                <option value="">Manipur</option>
+                <option value="">Meghalaya</option>
+                <option value="">Mizoram</option>
+                <option value="">Nagaland</option>
+                <option value="">Odisha</option>
+                <option value="">Puducherry</option>
+                <option value="">Punjab</option>
+                <option value="">Rajasthan</option>
+                <option value="">Sikkim</option>
+                <option value="">Tamil Nadu</option>
+                <option value="">Telangana</option>
+                <option value="">Tripura</option>
+                <option value="">Uttar Pradesh</option>
+                <option value="">Uttarakhand</option>
+                <option value="">West Bengal</option>
+              </select>
+            </div>
+            <div class="col-md-4 col-sm-6 index-search-form-field">
+              <label class="sr-only">Zipcode</label>
+              <input type="text" name="zipcode" class="form-control" placeholder="Zipcode">
+            </div>
+            <div class="col-md-4 col-sm-6 index-search-form-field">
+              <label class="sr-only">Keywords</label>
+              <input type="text" name="city" class="form-control" placeholder="keywords like novel, fiction ...">
+            </div>
+            <button class="btn btn-primary btn-block mt-4" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+  </section>
+
+  <!-- Breadcrumbs -->
+  <section id="bc" class="mt-3">
+    <div class="container">
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="breadcrumb-item active">Search</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Filter Books based on search option -->
+  <section id="recently-added">
+    <h1>Results</h1>
+
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm card-index-image">
+            <img class="card-img-top" src="images/irodov.jpeg" alt="image">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="book.html" class="btn btn-outline-primary">View</a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm card-index-image">
+            <img class="card-img-top" src="images/resnick.jpeg" alt="image">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="book.html" class="btn btn-outline-primary">View</a>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm card-index-image">
+            <img class="card-img-top" src="images/intelligentinvestor.jpeg" alt="image">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="book.html" class="btn btn-outline-primary">View</a>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm card-index-image">
+            <img class="card-img-top" src="images/oswaal-cs.jpeg" alt="image">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="book.html" class="btn btn-outline-primary">View</a>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm card-index-image">
+            <img class="card-img-top" src="images/oswaal.jpeg" alt="image">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="book.html" class="btn btn-outline-primary">View</a>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm card-index-image">
+            <img class="card-img-top" src="images/theoryofeverything.jpeg" alt="image">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="book.html" class="btn btn-outline-primary">View</a>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer  -->
+
+  <footer class="footer py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+      <li class="nav-item"><a href="search.html" class="nav-link px-2 text-muted">Search</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sell</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; <script>
+        document.write(new Date().getFullYear())
+      </script> BiCuDo </p>
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>

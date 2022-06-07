@@ -1,0 +1,29 @@
+body {
+  font-family: 'Monserrat', sans-serif;
+}
+
+.navbar {
+  color: #e3f2fd;
+
+}
+.nav-item {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#register {
+  margin-top: 5%;
+}
+
+.register-input-field {
+  margin-bottom: 5%;
+}
+
+.register-body{
+  background-color:#F1EEE9;
+}
+
+
+.footer {
+  margin-top: 50%;
+
+}

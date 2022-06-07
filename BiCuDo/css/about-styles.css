@@ -1,0 +1,76 @@
+body {
+  font-family: 'Monserrat', sans-serif;
+}
+/* Navbar CSS */
+.navbar {
+  color: #e3f2fd;
+}
+
+.nav-item {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+#banner {
+  text-align: center;
+  margin-top: 2.7%;
+  background-color: #73777B;
+  padding: 3% 11% 3%;
+  color: white;
+}
+
+/* Breadcrumbs CSS */
+#bc .container {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-content: center;
+  background-color: #F1EEE9;
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 4%;
+
+}
+
+/* para 1 CSS */
+
+#para1 {
+  margin-bottom: 5%;
+}
+#para1 img {
+  width: 100%;
+  height: 40vh;
+}
+/* para2 */
+#para2 {
+  text-align: center;
+  background-color: #F1EEE9;
+  padding: 3%;
+  margin-bottom: 5%;
+}
+
+#para2 .btn {
+  margin-top: 2%;
+}
+
+/* our team */
+#ourteam h1{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#ourteam .team-member {
+  padding: 2%;
+  text-align:center;
+}
+
+#ourteam img {
+  height: 100px;
+  width: 150px;
+  border-radius: 65%;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50%;
+
+}

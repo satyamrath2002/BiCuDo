@@ -1,0 +1,58 @@
+body {
+  font-family: 'Monserrat', sans-serif;
+}
+
+/* Navbar CSS */
+#navbar {
+  color: #e3f2fd;
+  margin-bottom: 4%;
+}
+
+.nav-item {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Breadcrumbs CSS */
+#bc .container {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  align-content: center;
+  background-color: #F1EEE9;
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 2%;
+
+}
+
+/* Book Title and nav tabs across page CSS */
+
+#book-title-nav {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+/* Book Info part CSS */
+
+#bookinfo {
+  margin-bottom: 3%;
+}
+/* Main image in book css */
+#bookinfo .img-main {
+  width: 40%;
+  height: 40vh;
+}
+
+/* Seller Information Section */
+#sellerinfo {
+  margin-bottom: 5%;
+}
+
+/* Inquiry Button */
+#inquiry {
+  margin-bottom: 5%;
+}
+/* Footer */
+.footer {
+  margin-top: 50%;
+
+}

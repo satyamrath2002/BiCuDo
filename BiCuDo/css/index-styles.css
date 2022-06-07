@@ -1,0 +1,65 @@
+
+body {
+  font-family: 'Monserrat', sans-serif;
+}
+/* Navbar CSS */
+.navbar {
+  color: #e3f2fd;
+
+}
+
+.nav-item {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+/* Search Form CSS */
+#search-form-div {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /* margin-top: 5%; */
+  margin-bottom: 5%;
+  border-style: rounded;
+  background-color: #F1EEE9;
+}
+
+.index-search-form-field {
+  margin-bottom: 3%;
+}
+.search-index {
+  padding-top: 3%;
+}
+
+/* Carousel Part */
+#carousel-part {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+
+}
+
+/* Recently Added Cards CSS */
+#recently-added h1 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+#recently-added {
+  margin-bottom: 5%;
+}
+
+
+/* Setting the image size in the cards */
+.card-img-top {
+width: 100%;
+height: 30vh;
+object-fit: contain;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50%;
+
+}
