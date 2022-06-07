@@ -34,7 +34,7 @@
             <a class="nav-link" href="search.html">Search</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sell</a>
+            <a class="nav-link" href="sell.html">Sell</a>
           </li>
         </ul>
       </div>
@@ -52,143 +52,200 @@
     </nav>
   </section>
 
-<section id = "seller-form">
+  <section id="seller-form-banner">
 
-<div class="container-fluid">
-  <h1>Sell your books here</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
+    <div class="container-fluid">
+      <h1>Sell your books here</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </section>
+
+  <!-- The form -->
+  <section id="seller-form">
+
+    <div class="container-md text-center">
+      <div class="seller-form p-5">
+
+        <form action="sell.html">
 
 
-  <form action="" method="post">
+          <div class="row search-index">
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <label class="sr-only">Book Name</label>
+              <input type="text" name="book_name" class="form-control" placeholder="Book Name">
+            </div>
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <label class="sr-only">Author</label>
+              <input type="text" name="author_name" class="form-control" placeholder="Author Name">
+            </div>
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <label class="sr-only">ISBN</label>
+              <input type="text" name="isbn" class="form-control" placeholder="ISBN">
+            </div>
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <label class="sr-only">Set Price in INR</label>
+              <input type="text" name="city" class="form-control" placeholder="Set Price in INR">
+            </div>
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <label class="sr-only">Select Category</label>
+              <select name="state" class="form-control">
+                <option selected="true" disabled="disabled">Book Categories</option>
+                <option value="class1-5">Class 1 to 10</option>
+                <option value="class8-10">Class 8 to 10</option>
+                <option value="class11-12">Class 11 and 12 </option>
+                <option value="college_book">Collage Book</option>
+                <option value="competition"> Competition Exam Book</option>
+                <option value="self_book">Self-help books</option>
+                <option value="comics">Comics</option>
+                <option value="god_books">Spritual And Devotional Books</option>
+                <option value="other_book">Other</option>
+              </select>
+            </div>
+
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Enter the book description<br> Note: This information will be displayed in the book listing</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <label class="sr-only">City</label>
+              <input type="text" name="city" class="form-control" placeholder="City">
+            </div>
+
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <label class="sr-only">State</label>
+              <select name="state" class="form-control">
+                <option selected="true" disabled="disabled">State (All)</option>
+                <option value="AN">Andaman and Nicobar Islands</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AR">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CH">Chandigarh</option>
+                <option value="CT">Chhattisgarh</option>
+                <option value="">Dadra and Nagar Haveli </option>
+                <option value="">Daman and Diu</option>
+                <option value="">Delhi</option>
+                <option value="">Goa</option>
+                <option value="">Gujarat</option>
+                <option value="">Haryana</option>
+                <option value="">Himachal Pradesh</option>
+                <option value="">Jammu and Kashmir</option>
+                <option value="">Jharkhand</option>
+                <option value="">Karnataka</option>
+                <option value="">Kerala</option>
+                <option value="">Lakshadweep</option>
+                <option value="">Madhya Pradesh</option>
+                <option value="">Maharashtra</option>
+                <option value="">Manipur</option>
+                <option value="">Meghalaya</option>
+                <option value="">Mizoram</option>
+                <option value="">Nagaland</option>
+                <option value="">Odisha</option>
+                <option value="">Puducherry</option>
+                <option value="">Punjab</option>
+                <option value="">Rajasthan</option>
+                <option value="">Sikkim</option>
+                <option value="">Tamil Nadu</option>
+                <option value="">Telangana</option>
+                <option value="">Tripura</option>
+                <option value="">Uttar Pradesh</option>
+                <option value="">Uttarakhand</option>
+                <option value="">West Bengal</option>
+              </select>
+            </div>
+
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <label class="sr-only">Zipcode</label>
+              <input type="text" name="zipcode" class="form-control" placeholder="Zipcode">
+            </div>
+
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Enter the Contact Details<br> Note: This information will be displayed in the book listing <br> Don't add sensitive information</span>
+                </div>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 sell-form-field front-cover-form">
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Front Cover Image</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
 
 
-    <div>
+          </div>
 
-      <label for="title">
-        <h3>Book Title *</h3>
-      </label>
-      <input type="text" id="title" name="title" value="" minlength="10" maxlength="100" required />
+          <div class="row">
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Image 1</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Image 2</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Image 3</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Image 4</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Image 5</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 sell-form-field">
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Image 6</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
+            <button class="btn btn-primary btn-block mt-4" type="submit">Submit form</button>
 
-      <div>
+          </div>
 
-        <label for="book_type">
-          <h3>Select Category *</h3>
-        </label>
-        <select name="book_type" id="book_type" class="form-control" required>
+        </form>
 
-          <option value="class1-5">Class 1 to 10</option>
-          <option value="class8-10">Class 8 to 10</option>
-          <option value="Arunachal Pradesh">Class 11 and 12 </option>
-          <option value="Collage_book">Collage Book</option>
-          <option value="competition"> Competition Exam Book</option>
-          <option value="self_book">Self-help books</option>
-          <option value="comics">Comics</option>
-          <option value="god_books">Spritual And Devotional Books</option>
-          <option value="other_book">Other</option>
-        </select>
       </div>
+    </div>
+
+  </section>
 
 
+  <!-- Footer  -->
 
-      <label for="discription">
-        <div>Discription*</div>
-      </label>
-
-      <textarea id="discription" name="discription" rows="5" cols="40">
-
-  </textarea>
-
-      <label for="price">
-        <h4> Set Price *</h4>
-      </label>
-      <input type="number" name="price_book" id="price" placeholder="Please ask only a resonable value" min="0">
-
-
-
-      <h3>UPLOAD front cover photo</h3>
-      <input type="file" accept="image/*" name="image" id="imgfile" onchange="loadFile(event)" required>
-
-      <p><img id="output" width="200" /></p>
-
-      <script>
-        var loadFile = function(event) {
-          var image = document.getElementById('output');
-          image.src = URL.createObjectURL(event.target.files[0]);
-        };
-      </script>
-
-
-
-
-
-
-      <h3>UPLOAD more photos</h3>
-      <div class="container2">
-
-        <div>
-          <input type="file" accept="image/*" name="image1" id="imgfile1">
-        </div>
-
-
-        <div>
-          <input type="file" accept="image/*" name="image2" id="imgfile2">
-
-        </div>
-
-        <div>
-          <input type="file" accept="image/*" name="image" id="imgfile3">
-
-
-        </div>
-
-        <div>
-          <input type="file" accept="image/*" name="image" id="imgfile4">
-
-        </div>
-
-        <div>
-          <input type="file" accept="image/*" name="image" id="imgfile5">
-
-        </div>
-
-        <div>
-          <input type="file" accept="image/*" name="image" id="imgfile6">
-        </div>
-        <div>
-          <input type="file" accept="image/*" name="image" id="imgfile7">
-        </div>
-        <div>
-          <input type="file" accept="image/*" name="image" id="imgfile8">
-        </div>
-
-
-
-
-
-      </div>
-
-
-      <div class="submits"> <input type="submit" id="submits" value="submit"></div>
-
-
-
-  </form>
-</section>
-
-<!-- Footer  -->
-
-<footer class="footer py-3 my-4">
-  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-    <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
-    <li class="nav-item"><a href="search.html" class="nav-link px-2 text-muted">Search</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sell</a></li>
-  </ul>
-  <p class="text-center text-muted">&copy; <script>
-      document.write(new Date().getFullYear())
-    </script> BiCuDo </p>
-</footer>
+  <footer class="footer py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+      <li class="nav-item"><a href="search.html" class="nav-link px-2 text-muted">Search</a></li>
+      <li class="nav-item"><a href="sell.html" class="nav-link px-2 text-muted">Sell</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; <script>
+        document.write(new Date().getFullYear())
+      </script> BiCuDo </p>
+  </footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
